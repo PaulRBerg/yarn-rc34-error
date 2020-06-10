@@ -1,0 +1,9 @@
+# folders
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+node_modules
+
+# files
+*.env
+*.log
