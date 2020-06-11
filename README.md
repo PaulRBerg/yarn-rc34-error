@@ -2,6 +2,9 @@
 
 Dummy project to reproduce the errors I encountered with yarn@2.0.0-rc.34.
 
+**Update: It turned out that this was an [issue](https://github.com/ethereumjs/ethereumjs-abi/issues/84) with my git ssh
+configuration, so I archived this repository.**
+
 ### Steps to Reproduce
 
 1. Clone this repository

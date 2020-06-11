@@ -3476,13 +3476,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git, ethereumjs-abi@npm:^0.6.8":
+"ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version: 0.6.8
-  resolution: "ethereumjs-abi@npm:0.6.8"
+  resolution: "ethereumjs-abi@https://github.com/ethereumjs/ethereumjs-abi.git#commit=1cfbb13862f90f0b391d8a699544d5fe4dfb8c7b"
   dependencies:
     bn.js: ^4.11.8
     ethereumjs-util: ^6.0.0
-  checksum: 8b537399b3d46501df544f94f9169d5e043264395f8e44b750349dd0149fe324720004dd1445eac42bb78984f08a0ea68c959a09b32c1392a2b86c5ae8390741
+  checksum: c637ab7d4cc68648f040b7662c016fa0432a548b778c9547c5ccd284baecf0187b6c1bcde399aeb4a8164b78d1ef1e2cc5ad2ebfd57cb714017f69f7fc6abf88
   languageName: node
   linkType: hard
 
@@ -3503,6 +3503,16 @@ __metadata:
     bn.js: ^4.11.8
     ethereumjs-util: ^6.0.0
   checksum: 846a3bd9ab39eccda852f697bfd65ab7fa7b0db04fb196fdf6278b91c8433694f537eac2fe13bb65b1d4be75f6490d0e6bfd14ac82f2df3dc7afa12a2061db7f
+  languageName: node
+  linkType: hard
+
+"ethereumjs-abi@npm:^0.6.8":
+  version: 0.6.8
+  resolution: "ethereumjs-abi@npm:0.6.8"
+  dependencies:
+    bn.js: ^4.11.8
+    ethereumjs-util: ^6.0.0
+  checksum: 8b537399b3d46501df544f94f9169d5e043264395f8e44b750349dd0149fe324720004dd1445eac42bb78984f08a0ea68c959a09b32c1392a2b86c5ae8390741
   languageName: node
   linkType: hard
 
